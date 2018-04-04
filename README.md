@@ -130,6 +130,7 @@ json格式为[{"id":xxx,
             ...]
 ```
 删除指定的任务
+```http://127.0.0.1:5000/cluster/delete/test_5```
 ![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/4.png)
 
 ### 五、项目需要补全的部分：
