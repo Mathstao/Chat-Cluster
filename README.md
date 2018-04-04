@@ -105,5 +105,6 @@
 如图，新增命名为test_3，过滤标签为云闪付和重大营销活动（其余参数默认）的聚类任务
 
 ```http://127.0.0.1:5000/cluster/train?name=test_3&filter_lable=云闪付-重大营销活动```
-![](https://github.com/Mathstao/Chat-Cluster/tree/master/pic_for_md/1.jpg)
+
+![test](https://github.com/Mathstao/Chat-Cluster/tree/master/pic_for_md/1.jpg)
 
