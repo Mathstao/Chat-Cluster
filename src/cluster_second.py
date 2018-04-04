@@ -1,4 +1,10 @@
 # -*- coding: UTF-8 -*-
+
+"""
+Author: mathstao
+Project: https://github.com/Mathstao/Chat-Cluster/
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfTransformer
