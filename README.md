@@ -3,19 +3,33 @@
 语言：**python3.6.3**
 第三方库：**umpy, pandas, sklearn, gensim, flask, jieba, pymysql**
 
+
+
+
+
 ### 二、数据路径说明
 **./data/for_corpus/** 用来训练词向量的语料，格式为原始的客户对话数据excel
 
+
+
 **./data/for_cluster/** 需要聚类数据，格式为原始的客户对话数据excel
 
+
+
 **./model** 词向量模型，目前只有一个默认的w2v_model模型，维度为200
+
+
 
 **./result** 聚类结果，每一次完整的聚类完毕后会生成3个文件，xxx为该次聚类任务的名称
 * cluster_result_xxx.xls 完整的聚类结果
 * cluster_stat_xxx.xls 聚类的统计结果
 * trend_data_xxx.xls 各类别在每一天的数量，可用来观察趋势
 
+
+
+
 **./vocab** 存放各种专门针对客服对话情景设计的词典
+
 * stopwords.txt 分词时的使用的停用词典
 * userdict.txt 分词时使用的自定义词典
 * merchant.txt 商户名称
