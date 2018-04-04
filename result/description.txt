@@ -1,0 +1,3 @@
+一次训练会生成3个.xls文件，分别是cluster_result_name.xls，cluster_stat_name，trend_data_name.xls。
+其中name为该次任务中用户给定的任务名称。
+具体测试结果涉及用户数据，不便展出。
