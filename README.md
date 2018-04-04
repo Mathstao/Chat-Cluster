@@ -106,7 +106,7 @@
 
 ```http://127.0.0.1:5000/cluster/train?name=test_3&filter_lable=云闪付-重大营销活动```
 
-![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/1.jpg)
+![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/1.png)
 
 如果数据库中已存在名字为test_3的任务，则返回添加失败
 ![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/2.png)
