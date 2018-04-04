@@ -1,12 +1,9 @@
 #  客服对话数据聚类及热点问题挖掘
 ### 一、运行环境
 语言：**python3.6.3**
-第三方库：**umpy, pandas, sklearn, gensim, flask, jieba, pymysql**
-
-
-
-
-
+第三方库：**umpy, pandas, sklearn, gensim, flask, jieba, pymysql**  
+  
+  
 ### 二、数据路径说明
 **./data/for_corpus/** 用来训练词向量的语料，格式为原始的客户对话数据excel
 
