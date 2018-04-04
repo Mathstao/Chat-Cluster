@@ -115,7 +115,7 @@
 ![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/3.png)
 
 在test_3任务完成后，查看其中属于2017年12月1号~2017年12月3号的结果数据，以json格式返回给前端
-127.0.0.1:5000/cluster/result/test_3/20171201-20171203
+```127.0.0.1:5000/cluster/result/test_3/20171201-20171203```
 ```
 json格式为[{"id":xxx,
             "summary":xxx,
