@@ -1,4 +1,10 @@
 # -*- coding: UTF-8 -*-
+
+"""
+Author: mathstao
+Project: https://github.com/Mathstao/Chat-Cluster/
+"""
+
 from gensim.models import Word2Vec
 
 
