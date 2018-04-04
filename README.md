@@ -109,10 +109,10 @@
 ![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/1.jpg)
 
 如果数据库中已存在名字为test_3的任务，则返回添加失败
-![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/2.jpg)
+![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/2.png)
 
 如图为后台的训练任务数据(MySQL)，一行为一个聚类任务，记录着该次任务的参数以及开始、结束时间，另外status有3个状态，分别是to be processed（待处理），processing（处理中）以及finished（完成）。
-![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/3.jpg)
+![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/3.png)
 
 在test_3任务完成后，查看其中属于2017年12月1号~2017年12月3号的结果数据，以json格式返回给前端
 127.0.0.1:5000/cluster/result/test_3/20171201-20171203
@@ -130,7 +130,7 @@ json格式为[{"id":xxx,
             ...]
 ```
 删除指定的任务
-![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/4.jpg)
+![pic](https://github.com/Mathstao/Chat-Cluster/blob/master/pic_for_md/4.png)
 
 ### 五、项目需要补全的部分：
 1. 缺少用户上传新的聚类文件的API接口
