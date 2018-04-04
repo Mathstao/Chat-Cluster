@@ -1,4 +1,10 @@
 # -*- coding: UTF-8 -*-
+
+"""
+Author: mathstao
+Project: https://github.com/Mathstao/Chat-Cluster/
+"""
+
 import re
 import jieba
 
