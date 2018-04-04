@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+
+"""
+Author: mathstao
+Project: https://github.com/Mathstao/Chat-Cluster/
+"""
+
 import sys
 import time
 import pandas as pd
